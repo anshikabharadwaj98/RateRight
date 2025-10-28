@@ -1,0 +1,108 @@
+<!-- <!DOCTYPE html>
+<html>
+    <head>
+        <title>House Price Prediction</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="app.js"></script>
+        <link rel="stylesheet" href="app.css">
+    
+    </head>
+    <body>
+        <div class="img"></div>
+        <form class="form">
+            <h2>Area (Square feet)</h2>
+            <input class="area" type="email" id="uisqft"  class="floatlabel" placeholder="Enter area in square feet">
+            <h2>Location</h2>
+            <select id="uilocation" class="floatlabel">
+                <option value="" disabled selected>Select location</option>
+                <Location options will be populated here -->
+            <!-- </select>
+        </form>
+    </body>
+</html>  -->
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>House Price Prediction</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <script src="app.js"></script>
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+  <div class="container">
+    <h1>                               </h1>
+    
+    <div class="form-group">
+      <label>Total Sqft:</label>
+      <input type="number" id="uiSqft">
+    </div>
+
+    <div class="form-group">
+      <label>BHK:</label>
+      <input type="number" id="uiBHK">
+    </div>
+
+    <div class="form-group">
+      <label>Bath:</label>
+      <input type="number" id="uiBath">
+    </div>
+
+    <div class="form-group">
+      <label>Location:</label>
+      <select id="uiLocations"></select>
+    </div>
+
+    <button class="submit" onclick="onClickedEstimatePrice()" type="button">Estimate Price</button>
+    <div id="uiEstimatedPrice" class="result">  <h2></h2>  </div>
+  </div>
+
+  
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bangalore House Price Predictor</title>
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🏠 Bangalore House Price Predictor</h1>
+
+    <div class="form-group">
+      <label for="uiSqft">Total Area (sqft):</label>
+      <input type="number" id="uiSqft" placeholder="Enter total area in sqft" />
+    </div>
+
+    <div class="form-group">
+      <label for="uiBHK">BHK:</label>
+      <input type="number" id="uiBHK" placeholder="Enter number of bedrooms" />
+    </div>
+
+    <div class="form-group">
+      <label for="uiBath">Bath:</label>
+      <input type="number" id="uiBath" placeholder="Enter number of bathrooms" />
+    </div>
+
+    <div class="form-group">
+      <label for="uiLocations">Location:</label>
+      <select id="uiLocations">
+        <option value="" disabled selected>Loading locations...</option>
+      </select>
+    </div>
+
+    <button onclick="onClickedEstimatePrice()">Estimate Price</button>
+
+    <!-- Result Section -->
+    <div id="result-box">
+      <h3>Predicted Price:</h3>
+      <p id="uiEstimatedPrice">--</p>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
+
